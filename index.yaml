@@ -3,6 +3,22 @@ entries:
   restic-operator:
   - apiVersion: v2
     appVersion: 0.1.2
+    created: "2024-12-15T03:08:12.781795793Z"
+    description: A Helm chart to deploy the restic-operator in Kubernetes
+    digest: 2a2ceb281ffdc31e0d12f91e3b13324a783f51ceb47e8d721ed8f6f5c640801f
+    maintainers:
+    - email: ansg191@anshulg.com
+      name: ansg191
+    name: restic-operator
+    sources:
+    - https://github.com/ansg191/charts
+    - https://github.com/ansg191/restic-operator
+    type: application
+    urls:
+    - https://github.com/ansg191/helm-charts/releases/download/restic-operator-0.1.3/restic-operator-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.1.2
     created: "2024-12-15T02:34:19.218308556Z"
     description: A Helm chart to deploy the restic-operator in Kubernetes
     digest: b975a2d116650b951b58319475e79f4e087cd3e38054349d98631f03c74453d7
@@ -59,4 +75,4 @@ entries:
     urls:
     - https://github.com/ansg191/helm-charts/releases/download/test-chart-0.1.0/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-15T02:34:19.218327191Z"
+generated: "2024-12-15T03:08:12.781820248Z"
