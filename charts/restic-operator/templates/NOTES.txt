@@ -1,0 +1,2 @@
+
+restic-operator v{{ .Chart.AppVersion }} should be installed in namespace "{{ .Release.Namespace }}".
