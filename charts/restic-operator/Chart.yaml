@@ -2,8 +2,8 @@ apiVersion: v2
 name: restic-operator
 description: A Helm chart to deploy the restic-operator in Kubernetes
 type: application
-version: 0.1.3
-appVersion: "0.1.2"
+version: 0.1.4
+appVersion: "0.1.3"
 
 sources:
   - https://github.com/ansg191/charts
