@@ -6,10 +6,12 @@ metadata:
 spec:
   group: restic.anshulg.com
   names:
-    categories: []
+    categories:
+    - restic
     kind: Backup
     plural: backups
-    shortNames: []
+    shortNames:
+    - rb
     singular: backup
   scope: Namespaced
   versions:
@@ -2213,10 +2215,12 @@ metadata:
 spec:
   group: restic.anshulg.com
   names:
-    categories: []
+    categories:
+    - restic
     kind: ScheduledBackup
     plural: scheduled-backups
-    shortNames: []
+    shortNames:
+    - rsb
     singular: scheduledbackup
   scope: Namespaced
   versions:
